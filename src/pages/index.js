@@ -2,6 +2,7 @@
 // import Image from '../components/image'
 import React from 'react'
 import SEO from '../components/seo'
+// import styled from 'styled-components'
 import Layout from '../components/layout'
 
 
@@ -9,8 +10,9 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-     
+      
     </Layout>
 )
+
 
 export default IndexPage
