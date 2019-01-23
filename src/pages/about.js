@@ -5,11 +5,11 @@ import React from 'react'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      
+      <h3>About Page</h3>
     </Layout>
 )
 
-export default IndexPage
+export default AboutPage
