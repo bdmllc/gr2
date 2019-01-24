@@ -20,7 +20,7 @@ const IndexHeader = styled.header `
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  
 `
 
 const DefaultHeader = styled(IndexHeader)`
