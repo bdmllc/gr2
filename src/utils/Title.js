@@ -36,7 +36,8 @@ text-align: center;
 .underline {
   width: 5rem;
   height:0.2rem;
-  background: ${styles.colors.mainYellow}
+  background: ${styles.colors.mainYellow};
+  margin: 0.5rem auto;
 }
 
 `
