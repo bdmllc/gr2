@@ -5,8 +5,8 @@ import { styles } from '../utils'
 export function Title({title, message}) {
   return (
     <TitleWrapper>
-      <h1>{title}</h1>
-      <h3 className="message">{message}</h3>
+    <h4 className="message">{message}</h4>  
+    <h1 className="title">{title}</h1>
       <div className="underline"></div>
     </TitleWrapper>
   )
@@ -22,8 +22,21 @@ text-align: center;
 .message {
   ${styles.textSlanted};
   ${styles.letterSpacing({spacing: '0.3rem'})};
+  font-size: 1.25rem;
+  color: ${styles.colors.mainYellow};
+  
+}
+
+.title{
+  ${styles.letterSpacing({spacing: '0.3rem'})};
   font-size: 2rem;
-  color: red;
+  text-transform: uppercase;
+  padding-top: 1.75rem;
+}
+.underline {
+  width: 5rem;
+  height:0.2rem;
+  background: ${styles.colors.mainYellow}
 }
 
 `
