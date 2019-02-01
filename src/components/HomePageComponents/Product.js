@@ -38,7 +38,7 @@ const ProductWrapper = styled.div`
   color: ${styles.colors.mainYellow};
   margin-top: 0.5rem;
 }
-.pricing {
+.price {
   color: ${styles.colors.mainYellow};
   margin-top: 0.5rem;
 }
